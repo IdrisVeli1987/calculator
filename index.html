@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="./favicon/icons8-calculator.gif"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Lesson-21 Praktika CALCIT</title>
+  </head>
+  <body>
+    <h3>CalcIt</h3>
+    <div class="calculator">
+      <input id="daxil_edilen_eded" type="text" />
+      <div class="btn-container">
+        <button onclick="btnForNumber('7')">7</button>
+        <button onclick="btnForNumber('8')">8</button>
+        <button onclick="btnForNumber('9')">9</button>
+        <button onclick="btnForOperator('+')">
+          <i class="fa-sharp fa-solid fa-plus fa-fade fa-2xs"></i>
+        </button>
+        <button onclick="btnForBackspace()">
+          <i class="fa-sharp fa-solid fa-xmark fa-fade fa-2xs"></i>
+        </button>
+        <button onclick="btnForNumber('4')">4</button>
+        <button onclick="btnForNumber('5')">5</button>
+        <button onclick="btnForNumber('6')">6</button>
+        <button onclick="btnForOperator('-')">
+          <i class="fa-sharp fa-solid fa-minus fa-fade fa-2xs"></i>
+        </button>
+        <button onclick="btnForClear()">
+          <i class="fa-sharp fa-solid fa-c fa-fade fa-2xs"></i>
+        </button>
+        <button onclick="btnForNumber('1')">1</button>
+        <button onclick="btnForNumber('2')">2</button>
+        <button onclick="btnForNumber('3')">3</button>
+        <button onclick="btnForOperator('/')">
+          <i class="fa-sharp fa-solid fa-divide fa-fade fa-2xs"></i>
+        </button>
+        <button onclick="btnForOperator('pow2')">
+          <i class="fa-sharp fa-solid fa-superscript fa-fade fa-2xs"></i>
+        </button>
+        <button onclick="btnForDot('')">.</button>
+        <button onclick="btnForNumber('0')">0</button>
+        <button onclick="btnForCalculate('=')">
+          <i class="fa-sharp fa-solid fa-equals fa-fade fa-2xs"></i>
+        </button>
+        <button onclick="btnForOperator('*')">
+          <i class="fa-sharp fa-solid fa-xmark fa-fade fa-2xs"></i>
+        </button>
+        <button onclick="btnForOperator('sqrt')">
+          <i
+            class="fa-sharp fa-solid fa-square-root-variable fa-beat-fade fa-2xs"
+          ></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
